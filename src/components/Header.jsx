@@ -74,7 +74,7 @@ const Header = () => {
             </nav>
 
             {open && (
-                <div className='lg:hidden fixed top-0 left-0 h-screen w-[70%] bg-gray-800 shadow-lg transform transition-transform duration-300 ease-in-out z-30 mt-[100px] py-10 px-10'>
+                <div className='lg:hidden fixed top-0 left-0 h-screen w-[250px] bg-gray-800 shadow-lg transform transition-transform duration-300 ease-in-out z-30 mt-[100px] py-10 px-10'>
                     <ul>
                         <li className='border-l-4 border-orange-600 text-white px-2'>
                             <NavLink to="/" onClick={toggleMenu}>Home</NavLink>
