@@ -128,7 +128,7 @@ const Teams = () => {
     <div>
         <h1 className=' text-[#F2F2F2] text-3xl font-semibold border-l-4 border-[#F96D00] px-3 '>Web Team </h1>
            
-           <div className=' bg-gray-900 min-h-screen  px-20 py-4 flex flex-wrap justify-center'>
+           <div className=' bg-gray-900 min-h-screen   py-4 flex flex-wrap justify-center'>
         
 
         {
@@ -155,7 +155,7 @@ const Teams = () => {
     <div>
         <h1 className=' text-[#F2F2F2] text-3xl font-semibold border-l-4 border-[#F96D00] px-3 '>Android Team</h1>
            
-           <div className=' bg-gray-900 min-h-screen  px-20 py-4 flex flex-wrap justify-center'>
+           <div className=' bg-gray-900 min-h-screen   py-4 flex flex-wrap justify-center'>
         
 
         {
@@ -177,7 +177,7 @@ const Teams = () => {
     <div>
         <h1 className=' text-[#F2F2F2] text-3xl font-semibold border-l-4 border-[#F96D00] px-3 '>Technical Team</h1>
            
-           <div className=' bg-gray-900 min-h-screen  px-20 py-4 flex flex-wrap justify-center'>
+           <div className=' bg-gray-900 min-h-screen   py-4 flex flex-wrap justify-center'>
         
 
         {
@@ -203,7 +203,7 @@ const Teams = () => {
     <div>
         <h1 className=' text-[#F2F2F2] text-3xl font-semibold border-l-4 border-[#F96D00] px-3 '>PR Team</h1>
            
-           <div className=' bg-gray-900 min-h-screen  px-20 py-4 flex flex-wrap justify-center'>
+           <div className=' bg-gray-900 min-h-screen   py-4 flex flex-wrap justify-center'>
         
 
         {
@@ -228,7 +228,7 @@ const Teams = () => {
     <div>
         <h1 className=' text-[#F2F2F2] text-3xl font-semibold border-l-4 border-[#F96D00] px-3 '>Content and Media Team</h1>
            
-           <div className=' bg-gray-900 min-h-screen  px-20 py-4 flex flex-wrap justify-center'>
+           <div className=' bg-gray-900 min-h-screen   py-4 flex flex-wrap justify-center'>
         
 
         {
@@ -253,7 +253,7 @@ const Teams = () => {
     <div>
         <h1 className=' text-[#F2F2F2] text-3xl font-semibold border-l-4 border-[#F96D00] px-3 '>Outreach Team</h1>
            
-           <div className=' bg-gray-900 min-h-screen  px-20 py-4 flex flex-wrap justify-center'>
+           <div className=' bg-gray-900 min-h-screen   py-4 flex flex-wrap justify-center'>
         
 
         {
