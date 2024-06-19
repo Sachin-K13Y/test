@@ -9,10 +9,12 @@ import Events from './pages/Events';
 import './pages/fontawesome'
 
 
+
 const App = () => {
     return (
         <Router>
             <Header />
+    
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<AboutUs />} />

@@ -20,7 +20,7 @@ const events = [
       ],
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem dolorem soluta. Quibusdam possimus earum blanditiis nobis, cupiditate ipsum ad corrupti voluptates similique dolores porroLorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem dolorem soluta. Quibusdam possimus earum blanditiis nobis, cupiditate ipsum ad corrupti voluptates similique dolores porroLorem ipsum dolor sit, amet consectetur adipisicing elit. Id quidem dolorem soluta. Quibusdam possimus eahttps://assets.devfolio.co/hackathons/748cbead053240aeba0e3f0fe1181ba1/assets/cover/388.jpeghttps://assets.devfolio.co/hackathons/748cbead053240aeba0e3f0fe1181ba1/assets/cover/388.jpegrum blanditiis nobis, cupiditate ipsum ad corrupti voluptates similique dolores porro',
     },
-    // Add more event objects if needed
+  
   ];
 const Events = () => {
     const [selectedImage, setSelectedImage] = useState(null);

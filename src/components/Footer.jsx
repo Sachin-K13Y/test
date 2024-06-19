@@ -10,16 +10,16 @@ const Footer = () => {
 
             <div className='flex items-center space-x-2'>
 
-                <span><img src="https://media.licdn.com/dms/image/C4D0BAQGRneY6b4SAmQ/company-logo_200_200/0/1677645694453?e=2147483647&v=beta&t=ZdNU1l5N-Gjoc2B9S7lNvcx9O4v06cQUyhZNFWZQZEc" alt="" className=' rounded-full w-14'/></span>
+                <span><img src="https://media.licdn.com/dms/image/C4D0BAQGRneY6b4SAmQ/company-logo_200_200/0/1677645694453?e=2147483647&v=beta&t=ZdNU1l5N-Gjoc2B9S7lNvcx9O4v06cQUyhZNFWZQZEc" alt="" className=' hidden lg:block rounded-full w-14'/></span>
                 <span className=' text-white font-semibold text-center'>THINK INDIA <br/>NITP</span>
 
             </div>
             <p className=' text-white py-5 text-sm'>Think India is One of the Best<br/>of NITP has branches in all <br/>major colleges</p>
             <span className=' flex space-x-4'>
-            <FontAwesomeIcon icon="fa-brands fa-instagram" size='2xl' style={{color:'#E4405F'}}/>
-            <FontAwesomeIcon icon="fa-brands fa-linkedin-in" size='2xl' style={{color:'#0077B5'}} />
-            <FontAwesomeIcon icon="fa-brands fa-x-twitter" size='2xl'color='black'/>
-            <FontAwesomeIcon icon="fa-brands fa-facebook" size='2xl' color='blue'/>
+            <FontAwesomeIcon className=' lg:text-3xl ' icon="fa-brands fa-instagram" size='xl' style={{color:'#E4405F'}}/>
+            <FontAwesomeIcon className=' lg:text-3xl ' icon="fa-brands fa-linkedin-in" size='xl' style={{color:'#0077B5'}} />
+            <FontAwesomeIcon className=' lg:text-3xl ' icon="fa-brands fa-x-twitter" size='xl'color='black'/>
+            <FontAwesomeIcon className=' lg:text-3xl ' icon="fa-brands fa-facebook" size='xl' color='blue'/>
             </span>
 
             </div>
