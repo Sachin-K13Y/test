@@ -6,10 +6,16 @@ export default {
   ],
   theme: {
     extend: {
-      animation:{
-        'bounce-slow':'bounce 3s infinite'
-      }
+      animation: {
+        'bounce-slow': 'bounce 3s infinite',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addBase }) {
+      addBase({
+        'body': { overflowX: 'hidden' },
+      });
+    },
+  ],
 }

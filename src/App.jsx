@@ -7,6 +7,7 @@ import AboutUs from './pages/AboutUs';
 import Teams from './pages/Teams';
 import Events from './pages/Events';
 import './pages/fontawesome'
+import './components/'
 
 
 
