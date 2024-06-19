@@ -12,8 +12,8 @@ const Header = () => {
     };
 
     return (
-        <header>
-            <nav className='h-[100px] bg-[#222831] shadow-white shadow-lg flex items-center justify-between px-4 fixed w-full top-0 z-50 overflow-x-hidden'>
+        <header className="w-screen overflow-x-hidden">
+            <nav className='h-[100px] bg-[#222831] shadow-white shadow-lg flex items-center justify-between px-4 fixed w-screen top-0 z-50'>
                 <div className='flex items-center'>
                     <img className='rounded-full' src={ThinkIndialogo} alt="ThinkIndialogo" width='50px' />
                     <img className='rounded-full ml-2' src={NITPLogo} width='50px' />
@@ -23,7 +23,6 @@ const Header = () => {
                     </span>
                 </div>
 
-                {/* Mobile Hamburger Menu Button */}
                 <div className='md:hidden flex items-center text-[35px] text-[#F96D00]'>
                     <button className='focus:outline-none' onClick={toggleMenu}>
                         &#9776;

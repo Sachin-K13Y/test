@@ -26,7 +26,7 @@ const Events = () => {
     const [selectedImage, setSelectedImage] = useState(null);
   return (
   
-    <div className="mt-[100px] bg-gray-900 py-10 px-3">
+    <div className="mt-[100px] bg-gray-900 py-10 px-3 w-screen">
     {/***********EVENTS SECTION********** */}
     <h1 className="text-[#F2F2F2] text-3xl font-semibold border-l-4 border-[#F96D00] px-3">Events</h1>
 
