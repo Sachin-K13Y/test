@@ -7,14 +7,13 @@ const NITPLogo='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjGZCk2pgk
 const Header = () => {
     const [open, setOpen] = useState(false); 
 
-  
     const toggleMenu = () => {
         setOpen(!open);
     };
 
     return (
         <header>
-            <nav className='h-[100px] bg-[#222831] shadow-white shadow-lg flex items-center justify-between px-4 fixed w-full top-0 z-50 '>
+            <nav className='h-[100px] bg-[#222831] shadow-white shadow-lg flex items-center justify-between px-4 fixed w-full top-0 z-50 overflow-x-hidden'>
                 <div className='flex items-center'>
                     <img className='rounded-full' src={ThinkIndialogo} alt="ThinkIndialogo" width='50px' />
                     <img className='rounded-full ml-2' src={NITPLogo} width='50px' />
@@ -69,20 +68,26 @@ const Header = () => {
                     </ul>
                 </div>
 
-             
                 <div className='hidden md:flex items-center'>
                     <button className=' bg-[#F96D00] text-white font-semibold py-2 px-4 rounded-2xl'>Get Started</button>
                 </div>
             </nav>
 
-           
             {open && (
-                <div className='lg:hidden fixed top-0 left-0 h-screen w-[70%] bg-gray-800  shadow-lg transform transition-transform duration-300 ease-in-out z-30 mt-[100px] py-10 px-10 '>
+                <div className='lg:hidden fixed top-0 left-0 h-screen w-[70%] bg-gray-800 shadow-lg transform transition-transform duration-300 ease-in-out z-30 mt-[100px] py-10 px-10'>
                     <ul>
-                        <li className=' border-l-4 border-orange-600 text-white px-2'><NavLink to="/" onClick={toggleMenu}>Home</NavLink></li>
-                        <li className=' border-l-4 border-orange-600 text-white px-2 my-3'><NavLink to="/about" onClick={toggleMenu}>About Us</NavLink></li>
-                        <li className=' border-l-4 border-orange-600 text-white px-2 my-3'><NavLink to="/teams" onClick={toggleMenu}>Teams</NavLink></li>
-                        <li className=' border-l-4 border-orange-600 text-white px-2 my-3'><NavLink to="/events" onClick={toggleMenu}>Events</NavLink></li>
+                        <li className='border-l-4 border-orange-600 text-white px-2'>
+                            <NavLink to="/" onClick={toggleMenu}>Home</NavLink>
+                        </li>
+                        <li className='border-l-4 border-orange-600 text-white px-2 my-3'>
+                            <NavLink to="/about" onClick={toggleMenu}>About Us</NavLink>
+                        </li>
+                        <li className='border-l-4 border-orange-600 text-white px-2 my-3'>
+                            <NavLink to="/teams" onClick={toggleMenu}>Teams</NavLink>
+                        </li>
+                        <li className='border-l-4 border-orange-600 text-white px-2 my-3'>
+                            <NavLink to="/events" onClick={toggleMenu}>Events</NavLink>
+                        </li>
                     </ul>
                 </div>
             )}

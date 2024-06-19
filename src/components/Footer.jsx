@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
     return (
         <footer className=' bg-[#222831] w-full h-[300px]'>
-           <div className=' flex py-5 justify-between px-10'>
+           <div className=' flex py-5 justify-between px-2'>
 
-            <div className=' px-3'>
+            <div className=' px-2'>
 
             <div className='flex items-center space-x-2'>
 
